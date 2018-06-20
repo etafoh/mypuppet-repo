@@ -12,5 +12,5 @@ file {'/tmp/helloSir.txt':
 cron { 'run-puppet':
   command => '/usr/local/bin/run-puppet',
   hour    => '*',
-  minute  => '*/15',
+  minute  => '*/3',
 }
